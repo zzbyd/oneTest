@@ -14,6 +14,22 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <!-- spring 核心 -->
+    <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>4.1.7.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>4.1.7.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.1.7.RELEASE</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>gm</finalName>
